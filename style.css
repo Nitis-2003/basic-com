@@ -171,3 +171,39 @@ body {
     padding: 5px;
     text-align: center;
 }
+
+.paper{
+    margin: 20px 0px;
+
+}
+
+.content{
+    /* display: flex; */
+    
+}
+
+.background-item{
+    background-color: rgb(245, 245, 245);
+
+}
+
+.cafe-item{
+    display: flex;
+    /* border: 1px solid; */
+    box-shadow: 6px 10px 10px 3px rgba(0, 0, 0, 0.11);
+    margin: 10px;
+}
+
+.cafe-info{
+    margin: 20px;
+    padding: 10px;
+}
+
+.cafe-item img{
+    width: 30%;
+    margin: 20px;
+}
+
+.title-cafe{
+    margin-bottom: 0px;
+}
