@@ -191,6 +191,7 @@ body {
 
 .cafe-item{
     display: flex;
+    background-color: white;
     /* border: 1px solid; */
     box-shadow: 6px 10px 10px 3px rgba(0, 0, 0, 0.11);
     margin: 10px;
