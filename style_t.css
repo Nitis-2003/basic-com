@@ -1,0 +1,21 @@
+*{
+    font-family: 'Itim', cursive;
+}
+.travel{
+    text-align: center;
+}
+
+.travel h2{
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.travel img{
+    width: 700px;
+    border-radius: 15px;
+    box-shadow: 2px 4px 11px 8px rgba(0, 0, 0, 0.37);
+}
+
+.travel-title{
+    margin-top: 70px;
+}
