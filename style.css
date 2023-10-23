@@ -262,6 +262,8 @@ body {
     max-width: 1000px;
     position: relative;
     margin: auto;
+    margin-top: 60px;
+    /* padding: 20p; */
   }
   
   /* Hide the images by default */
