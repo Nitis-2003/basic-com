@@ -2,6 +2,8 @@
 
 
 body {
+    font-family: 'Itim', cursive;
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -246,16 +248,33 @@ body {
     text-align: center;
 }
 
+.r-head{
+    /* background-color: rgb(255, 40, 40); */
+    /* margin-top: 30px; */
+    padding-top: 30px;
+}
+
+.r-title{
+    margin-top: 50px;
+}
+
 .r-content{
-    margin: 10px;
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 6px 10px 10px 3px rgba(0, 0, 0, 0.11);
+}
+
+.r-title{
+    text-align: center;
 }
 
 .r-info{
-    margin: 0px 300px;
-}
-
-.food-con{
-    padding: 2rem;
+    text-align: center;
+    padding: 10px 200px;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
 }
 
 .slideshow-container {
@@ -331,5 +350,4 @@ body {
     width: 100%;
     border-radius: 5px;
     aspect-ratio: 16/9;
-    box-shadow: 0 1.5rem 3rem --0.75rem hsla(0, 0%, 0%, 0.25);
 }
