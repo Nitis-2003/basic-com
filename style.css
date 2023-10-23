@@ -245,3 +245,11 @@ body {
     margin: 0;
     text-align: center;
 }
+
+.r-content{
+    margin: 10px;
+}
+
+.r-info{
+    margin: 0px 300px;
+}
