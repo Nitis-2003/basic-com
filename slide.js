@@ -25,29 +25,57 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-let slideIndex2 = 1;
-showSlides2(slideIndex2);
+let slideIndextwo = 1;
+showSlidestwo(slideIndextwo);
 
-function plusSlides2(n) {
-  showSlides2(slideIndex2 += n);
+function plusSlidestwo(n) {
+  showSlidestwo(slideIndextwo += n);
 }
 
-function currentSlide2(n) {
-  showSlides2(slideIndex2 = n);
+function currentSlidetwo(n) {
+  showSlidestwo(slideIndextwo = n);
 }
 
-function showSlides2(n) {
+function showSlidestwo(n) {
   let i;
-  let slides2 = document.getElementsByClassName("mySlides-2");
-  let dots2 = document.getElementsByClassName("dot-2");
-  if (n > slides2.length) {slideIndex2 = 1}
-  if (n < 1) {slideIndex2 = slides2.length}
-  for (i = 0; i < slides2.length; i++) {
-    slides2[i].style.display = "none";
+  let slidestwo = document.getElementsByClassName("mySlides-2");
+  let dotstwo = document.getElementsByClassName("dot-2");
+  if (n > slidestwo.length) {slideIndextwo = 1}
+  if (n < 1) {slideIndextwo = slidestwo.length}
+  for (i = 0; i < slidestwo.length; i++) {
+    slidestwo[i].style.display = "none";
   }
-  for (i = 0; i < dots2.length; i++) {
-    dots2[i].className = dots2[i].className.replace(" active", "");
+  for (i = 0; i < dotstwo.length; i++) {
+    dotstwo[i].className = dotstwo[i].className.replace(" active", "");
   }
-  slides2[slideIndex2-1].style.display = "block";
-  dots2[slideIndex2-1].className += " active";
+  slidestwo[slideIndextwo-1].style.display = "block";
+  dotstwo[slideIndextwo-1].className += " active";
+}
+
+
+let slideIndexthree = 1;
+showSlidesthree(slideIndexthree);
+
+function plusSlidesthree(n) {
+  showSlidesthree(slideIndexthree += n);
+}
+
+function currentSlidethree(n) {
+  showSlidesthree(slideIndexthree = n);
+}
+
+function showSlidesthree(n) {
+  let i;
+  let slidesthree = document.getElementsByClassName("mySlidesthree");
+  let dotsthree = document.getElementsByClassName("dot-3");
+  if (n > slidesthree.length) {slideIndexthree = 1}
+  if (n < 1) {slideIndexthree = slidesthree.length}
+  for (i = 0; i < slidesthree.length; i++) {
+    slidesthree[i].style.display = "none";
+  }
+  for (i = 0; i < dotsthree.length; i++) {
+    dotsthree[i].className = dotsthree[i].className.replace(" active", "");
+  }
+  slidesthree[slideIndexthree-1].style.display = "block";
+  dotsthree[slideIndexthree-1].className += " active";
 }
