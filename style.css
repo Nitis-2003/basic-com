@@ -24,16 +24,16 @@ body {
     color: whitesmoke;
 }
 
-.menubar a:hover{
+.menubar a:hover {
     color: gainsboro;
 }
 
-.space{
+.space {
     background-color: rgb(245, 245, 245);
     padding: 10px;
 }
 
-.history{
+.history {
     background-color: rgb(245, 245, 245);
 }
 
@@ -127,7 +127,7 @@ body {
     box-shadow: 6px 10px 10px 3px rgba(0, 0, 0, 0.11);
 
     /* background-image: linear-gradient(0deg, rgb(248, 248, 248) 0%, rgba(245, 223, 198, 0.56) 100%); */
-    
+
 
 }
 
@@ -174,22 +174,22 @@ body {
     text-align: center;
 }
 
-.paper{
+.paper {
     margin: 20px 0px;
 
 }
 
-.content{
+.content {
     /* display: flex; */
-    
+
 }
 
-.background-item{
+.background-item {
     background-color: rgb(245, 245, 245);
 
 }
 
-.cafe-item{
+.cafe-item {
     display: flex;
     background-color: white;
     /* border: 1px solid; */
@@ -197,32 +197,32 @@ body {
     margin: 10px;
 }
 
-.cafe-info{
+.cafe-info {
     margin: 20px;
     padding: 10px;
 }
 
-.cafe-item img{
+.cafe-item img {
     width: 30%;
     margin: 20px;
 }
 
-.title-cafe{
+.title-cafe {
     margin-bottom: 0px;
 }
 
-.souvenirs{
+.souvenirs {
     padding: 20px;
 }
 
-.s-content{
+.s-content {
     display: flex;
     /* height: 300vh; */
     justify-content: center;
     margin-top: 30px;
     /* border: 5px solid red; */
 
-/* 
+    /* 
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -230,7 +230,7 @@ body {
     margin-right: 20px; */
 }
 
-.s-item{
+.s-item {
     width: 30%;
     /* border: 1px solid green; */
     height: 600px;
@@ -239,38 +239,38 @@ body {
     /* align-items: center; */
 }
 
-.s-pic{
+.s-pic {
     width: 100%;
     margin: 10px;
 }
 
-.s-name{
+.s-name {
     margin: 0;
     text-align: center;
 }
 
-.r-head{
+.r-head {
     /* background-color: rgb(255, 40, 40); */
     /* margin-top: 30px; */
     padding-top: 30px;
 }
 
-.r-title{
+.r-title {
     margin-top: 50px;
 }
 
-.r-content{
+.r-content {
     background-color: white;
     margin: 30px;
     padding: 20px;
     box-shadow: 6px 10px 10px 3px rgba(0, 0, 0, 0.11);
 }
 
-.r-title{
+.r-title {
     text-align: center;
 }
 
-.r-info{
+.r-info {
     text-align: center;
     padding: 10px 200px;
     font-size: 20px;
@@ -282,17 +282,25 @@ body {
     max-width: 1000px;
     position: relative;
     margin: auto;
-    margin-top: 60px;
-    /* padding: 20p; */
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
+}
+
+.mySlides,.mySlides-2 {
     display: none;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
+}
+
+.mySlides img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.mySlides-2 img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.prev, .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -306,21 +314,16 @@ body {
     border-radius: 0 3px 3px 0;
     user-select: none;
   }
-  
-  /* Position the "next button" to the right */
+
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
-  
-  /* On hover, add a black background color with a little bit see-through */
+
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
-  
-  
-  
-  /* The dots/bullets/indicators */
+
   .dot {
     cursor: pointer;
     height: 15px;
@@ -335,8 +338,7 @@ body {
   .active, .dot:hover {
     background-color: #717171;
   }
-  
-  /* Fading animation */
+
   .fade {
     animation-name: fade;
     animation-duration: 1.5s;
@@ -347,8 +349,18 @@ body {
     to {opacity: 1}
   }
 
-.slide-pic{
-    width: 100%;
-    border-radius: 5px;
-    aspect-ratio: 16/9;
-}
+  .location{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .linkbtn {
+    background-color: green;
+    border: 1px solid rgb(170, 168, 168);
+    border-radius: 25px;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    justify-content: center;
+  }
