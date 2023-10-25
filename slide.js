@@ -79,3 +79,85 @@ function showSlidesthree(n) {
   slidesthree[slideIndexthree-1].style.display = "block";
   dotsthree[slideIndexthree-1].className += " active";
 }
+
+
+let slideIndexfour = 1;
+showSlidesfour(slideIndexfour);
+
+function plusSlidesfour(n) {
+  showSlidesfour(slideIndexfour += n);
+}
+
+function currentSlidefour(n) {
+  showSlidesfour(slideIndexfour = n);
+}
+
+function showSlidesfour(n) {
+  let i;
+  let slidesfour = document.getElementsByClassName("mySlides-4");
+  let dotsfour = document.getElementsByClassName("dot-4");
+  if (n > slidesfour.length) {slideIndexfour = 1}
+  if (n < 1) {slideIndexfour = slidesfour.length}
+  for (i = 0; i < slidesfour.length; i++) {
+    slidesfour[i].style.display = "none";
+  }
+  for (i = 0; i < dotsfour.length; i++) {
+    dotsfour[i].className = dotsfour[i].className.replace(" active", "");
+  }
+  slidesfour[slideIndexfour-1].style.display = "block";
+  dotsfour[slideIndexfour-1].className += " active";
+}
+
+let slideIndexfive = 1;
+showSlidesfive(slideIndexfive);
+
+function plusSlidesfive(n) {
+  showSlidesfive(slideIndexfive += n);
+}
+
+function currentSlidefive(n) {
+  showSlidesfive(slideIndexfive = n);
+}
+
+function showSlidesfive(n) {
+  let i;
+  let slidesfive = document.getElementsByClassName("mySlides-5");
+  let dotsfive = document.getElementsByClassName("dot-5");
+  if (n > slidesfive.length) {slideIndexfive = 1}
+  if (n < 1) {slideIndexfive = slidesfive.length}
+  for (i = 0; i < slidesfive.length; i++) {
+    slidesfive[i].style.display = "none";
+  }
+  for (i = 0; i < dotsfive.length; i++) {
+    dotsfive[i].className = dotsfive[i].className.replace(" active", "");
+  }
+  slidesfive[slideIndexfive-1].style.display = "block";
+  dotsfive[slideIndexfive-1].className += " active";
+}
+
+let slideIndexsix = 1;
+showSlidessix(slideIndexsix);
+
+function plusSlidessix(n) {
+  showSlidessix(slideIndexsix += n);
+}
+
+function currentSlidesix(n) {
+  showSlidessix(slideIndexsix = n);
+}
+
+function showSlidessix(n) {
+  let i;
+  let slidessix = document.getElementsByClassName("mySlides-6");
+  let dotssix = document.getElementsByClassName("dot-6");
+  if (n > slidessix.length) {slideIndexsix = 1}
+  if (n < 1) {slideIndexsix = slidessix.length}
+  for (i = 0; i < slidessix.length; i++) {
+    slidessix[i].style.display = "none";
+  }
+  for (i = 0; i < dotssix.length; i++) {
+    dotssix[i].className = dotssix[i].className.replace(" active", "");
+  }
+  slidessix[slideIndexsix-1].style.display = "block";
+  dotssix[slideIndexsix-1].className += " active";
+}
