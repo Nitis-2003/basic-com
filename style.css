@@ -490,6 +490,10 @@ body {
     justify-content: center;
   }
 
+  .apic img{
+    height: 500px;
+  }
+
   .backbtn {
     background-color: red;
     /* border: 3px solid rgb(205, 205, 205); */
