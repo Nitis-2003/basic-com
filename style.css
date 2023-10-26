@@ -477,7 +477,22 @@ body {
 
   .linkbtn {
     background-color: red;
-    border: 3px solid rgb(205, 205, 205);
+    /* border: 3px solid rgb(205, 205, 205); */
+    border-radius: 25px;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    justify-content: center;
+  }
+
+  .apic{
+    display: flex;
+    justify-content: center;
+  }
+
+  .backbtn {
+    background-color: red;
+    /* border: 3px solid rgb(205, 205, 205); */
     border-radius: 25px;
     color: white;
     padding: 10px 15px;
